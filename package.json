@@ -1,0 +1,19 @@
+{
+  "name": "insomnia-plugin-jwt",
+  "version": "1.0.0",
+  "author": "Alessio Dionisi <hello@adns.io>",
+  "description": "JSON Web Token for Insomnia REST Client",
+  "repository": "github:adnsio/insomnia-plugin-jwt",
+  "license": "MIT",
+  "main": "plugin.js",
+  "insomnia": {
+    "name": "jwt",
+    "description": "JSON Web Token for Insomnia REST Client"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  }
+}
